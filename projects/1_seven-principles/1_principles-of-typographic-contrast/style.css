@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+    color: brown;
+    margin-left: 11vw;
+    margin-right: 11vw;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color:darkred;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12vw;
+}
+
+.intro {
+    text-align: center;
+}
+
+#author {
+    font-weight: 600;
+    color:darkred;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+}
