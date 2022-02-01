@@ -64,7 +64,13 @@ body {
 }
 
 #long{
-    width:25px;
+    width:30px;
+    height:275px;
+    display:inline-block;
+}
+
+#first{
+    width:23px;
     height:275px;
     display:inline-block;
 }
