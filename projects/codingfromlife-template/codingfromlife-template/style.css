@@ -119,8 +119,8 @@ body {
 	border-radius:50%;
 	background:rgb(128, 0, 53);
 	position:absolute;
-	bottom: 65px;
-	left: 155px;
+	bottom: 0px;
+	left: 150px;
 }
 
 #innerrind {
