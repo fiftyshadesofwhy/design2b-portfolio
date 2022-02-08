@@ -1,10 +1,28 @@
+body {
+    animation: colors 4s linear infinite;
+}
+
+@keyframes colors {
+    0% {background-color:white;}
+
+    15% {background-color:white;}
+
+    35% {background-color:black;}
+
+    65% {background-color:black;}
+
+    85% {background-color:white;}
+
+    100% {background-color:white;}
+}
+
 p {
     left:20vh;
-    font-size: 10vh;
+    font-size: 15vh;
 }
 
 p:hover .opposites{
-    color:red
+    color:red;
 }
 
 p:hover .attract{
@@ -12,67 +30,43 @@ p:hover .attract{
 }
 
 .opposites {
-    color:orange;
+    font-family: serif;
     position: relative;
     animation: opposites 4s ease-in-out infinite;
 }
 
 @keyframes opposites {
-    0% {
-        left:10vw;
-    }
+    0% {left:10vw; top:25vh; color:orange;}
 
-    15% {
-        left:10vw;
-    }
+    15% {left:10vw; top:25vh; color:orange;}
 
-    35% {
-        left:20vw;
-    }
+    35% {left:25vw; top:25vh; color:yellow;}
 
-    65% {
-        left:20vw;
-    }
+    65% {left:25vw; top:25vh; color:yellow;}
 
-    85% {
-        left: 10vw;
-    }
+    85% {left:10vw; top:25vh; color:orange;}
 
-    100% {
-        left: 10vw;
-    }
+    100% {left:10vw; top:25vh; color:orange;}
 }
 
 .attract {
-    color:blue;
+    font-family:sans-serif;
     position: relative;
     animation: attract 4s ease-in-out infinite;
 }
 
 @keyframes attract {
-    0% {
-        left:31vw;
-    }
+    0% {left:40vw; top:25vh; color:blue;}
 
-    15% {
-        left:31vw;
-    }
+    15% {left:40vw; top:25vh; color:blue;}
 
-    35% {
-        left:21vw;
-    }
+    35% {left:26vw; top:25vh; color:rgb(179, 25, 179);}
 
-    65% {
-        left:21vw;
-    }
+    65% {left:26vw; top:25vh; color:rgb(179, 25, 179);}
 
-    85% {
-        left:31vw;
-    }
+    85% {left:40vw; top:25vh; color:blue;}
 
-    100% {
-        left:31vw;
-    }
+    100% {left:40vw; top:25vh; color:blue;}
 }
 
 .prev {
@@ -109,4 +103,18 @@ p:hover .attract{
 	0% {right:20px;}
 	50% {right:25px;}
 	100% {right:20px;}
+}
+
+.button {
+    text-decoration:none;
+    animation: inversion 4s linear infinite;
+}
+
+@keyframes inversion {
+    0% {color:black;}
+    15% {color:black;}
+    35% {color:white;}
+    65% {color:white;}
+    85% {color:black;}
+    100% {color:black;}
 }
