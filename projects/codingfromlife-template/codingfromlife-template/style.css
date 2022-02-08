@@ -122,3 +122,14 @@ body {
 	bottom: 70px;
 	left: 150px;
 }
+
+#innerrind {
+	width:100px;
+	height:50px;
+	border-radius:50%;
+	background:antiquewhite;
+	position:absolute;
+	top: 245px;
+	left: 320px;
+	transform:rotate(-30deg);
+}
