@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 p {
     font-size: 20vh;
     position: relative;
@@ -10,7 +14,7 @@ p {
     25% {left:40vw; bottom: -70vh; transform:rotate(90deg);}
     27% {left:40vw; bottom: -70vh; transform:rotate(90deg);}
     40% {left:40vw; bottom: -120vh; transform:rotate(90deg);}
-    50% {left:80vw; bottom: -30vh; transform:rotate(0deg);}
+    50% {left:75vw; bottom: -30vh; transform:rotate(0deg);}
     100% {left: 5vw; bottom: -30vh;}
 }
 
@@ -48,4 +52,9 @@ p {
 	0% {right:20px;}
 	50% {right:25px;}
 	100% {right:20px;}
+}
+
+.button {
+    color:black;
+    text-decoration: none;
 }
