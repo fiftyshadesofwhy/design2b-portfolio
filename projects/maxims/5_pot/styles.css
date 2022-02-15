@@ -1,8 +1,13 @@
 body {
     overflow:hidden;
+    background: #2C4276;
+    background: -webkit-linear-gradient(bottom, #2C4276, #75BBCF);
+    background: -moz-linear-gradient(bottom, #2C4276, #75BBCF);
+    background: linear-gradient(to top, #2C4276, #75BBCF);
 }
 
 p {
+    color:#c0e9f5;
     font-size: 25vh;
     text-align:center;
     position: relative;
@@ -30,6 +35,7 @@ p:hover {
 }
 
 .prev {
+    color:#75BBCF;
 	position: fixed;
 	bottom: 20px;
 	left: 20px;
@@ -48,6 +54,7 @@ p:hover {
 }
 
 .next {
+    color:#2C4276;
 	position: fixed;
 	top: 20px;
 	right: 20px;
@@ -66,6 +73,5 @@ p:hover {
 }
 
 .button {
-    color:black;
     text-decoration: none;
 }
