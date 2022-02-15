@@ -29,31 +29,34 @@ div {
 }
 
 .cloud:hover {
-    animation: glint 1.5s infinite;
+    color:#919191;
+    animation: glint 2.5s infinite;
+    animation-delay:1s;
 }
 
 @keyframes glint {
-    0%  {color:#919191}
-    5%  {color: #919191;
+    0%  {color:#919191;}
+    0.5%  {color: #919191;
         background: -webkit-linear-gradient(0deg, #919191 0%, #ffffff 0%, #919191 19%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}
-    25% {color: #919191;
+    2.5% {color: #919191;
         background: -webkit-linear-gradient(0deg, #919191 4%, #ffffff 25%, #919191 44%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}
-    50% {color: #919191;
+    5% {color: #919191;
         background: -webkit-linear-gradient(0deg, #919191 31%, #ffffff 50%, #919191 69%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}
-    75% {color: #919191;
+    7.5% {color: #919191;
         background: -webkit-linear-gradient(0deg, #919191 54%, #ffffff 75%, #919191 94%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}
-    95% {color: #919191;
+    9.5% {color: #919191;
         background: -webkit-linear-gradient(0deg, #919191 81%, #ffffff 100%, #919191 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}
+    10.5% {color:#919191}
     100% {color:#919191}
 }
 
