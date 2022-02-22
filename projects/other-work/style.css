@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-family: 'Valera Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     background-color:rgb(247, 234, 255);
 }
 
@@ -19,7 +19,7 @@ img:hover {
 #tl {
     position:fixed;
     top:10vh;
-    left:45vw;
+    left:44vw;
     font-size:7vh;
 }
 
@@ -28,8 +28,8 @@ img:hover {
     color:black;
     font-weight:bold;
     position:fixed;
-    bottom:35vh;
-    left:45.5vw;
+    bottom:33vh;
+    left:44.5vw;
     font-size:7vh;
     transition-property:color;
     transition-duration:1s;
