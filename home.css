@@ -1,0 +1,204 @@
+body {
+    font-family:sans-serif;
+    background-color: #ffffff;
+}
+
+a{
+    text-align: center;
+    font-size:18vh;
+    text-decoration:none;
+    font-family: 'Libre Barcode 39 Text', sans-serif;
+    color:#ffffff;
+}
+
+.fixed-position {
+    position: fixed;
+    box-sizing:border-box;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+    width: 100%;
+    height: 7.5%;
+    display: flex;
+    box-shadow: rgba(73, 73, 73) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
+}
+
+.bgcolor {
+    position: fixed;
+    box-sizing:border-box;
+    top: 10px;
+    left: 2%;
+    z-index: 9999;
+    width: 20%;
+    height: 56px;
+    display: flex;
+    flex-direction:row;
+}
+
+.button {
+    display: inline-block;
+    margin-left:-17px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #202020;
+    position: relative;
+}
+
+#white {
+    background-color: #ffffff;
+}
+
+#pink {
+    background-color: #ffc0cb;
+}
+
+#orange {
+    background-color: #ffab8c;
+}
+
+#yellow {
+    background-color: #ffee8b;
+}
+
+#green {
+    background-color: #cbfdb7;
+}
+
+#blue {
+    background-color: #87cefa;
+}
+
+#purple {
+    background-color: #dda0dd;
+}
+
+.button:hover {
+    animation: hop 0.75s ease-in-out infinite;
+}
+
+@keyframes hop {
+    0% {top: 0;}
+    40% {top: -4px;}
+    50% {top: -5px;}
+    60% {top: -4px;}
+    100% {top: 0;}
+}
+
+.title {
+    font-family: 'Varela Round', sans-serif;
+    color:#000000be;
+    position: absolute;
+    top: -20px;
+    left:41.5%;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.windows {
+    font-family: sans-serif;
+    color:#000000be;
+    position: fixed;
+    top: -25px;
+    right:1%;
+    font-size: 30px;
+}
+
+.maxim-container {
+    overflow:hidden;
+    position: fixed;
+    box-sizing:border-box;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 23%;
+    display: flex;
+    flex-direction:row;
+    background-color:#000000;
+    align-items: center;
+    justify-content: center;
+}
+
+.cb-container {
+    overflow:hidden;
+    position: fixed;
+    box-sizing:border-box;
+    bottom: 23%;
+    left: 12.5%;
+    width: 75%;
+    height: 23%;
+    display: flex;
+    flex-direction:row;
+    background-color:#ff7f50;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    overflow:hidden;
+    position: fixed;
+    box-sizing:border-box;
+    bottom: 46%;
+    left: 25%;
+    width: 50%;
+    height: 23%;
+    display: flex;
+    flex-direction:row;
+    background-color:#ba55d3;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container {
+    position: fixed;
+    box-sizing:border-box;
+    bottom: 69%;
+    left: 37.5%;
+    width: 25%;
+    height: 23%;
+    display: flex;
+    flex-direction:row;
+    background-color:#ffd700;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me {
+    color:#ffee8b;
+    transition-property: color;
+    transition-duration: 0.25s;
+}
+
+.about-me:hover {
+    color:white;
+}
+
+.maxims {
+    color:#808080;
+    transition-property: color;
+    transition-duration: 0.25s;
+}
+
+.maxims:hover {
+    color:white;
+}
+
+.cb {
+    color:#ffab8c;
+    transition-property: color;
+    transition-duration: 0.25s;
+}
+
+.cb:hover {
+    color:white;
+}
+
+.logos {
+    color:#d88feb;
+    transition-property: color;
+    transition-duration: 0.25s;
+}
+
+.logos:hover {
+    color:white;
+}
