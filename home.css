@@ -1,9 +1,14 @@
 body {
     font-family:sans-serif;
-    background-color: #ffffff;
+    margin:0;
+    background: #ffffff;
 }
 
-a{
+p {
+    font-size:100px;
+}
+
+.link {
     text-align: center;
     font-size:18vh;
     text-decoration:none;
@@ -11,28 +16,33 @@ a{
     color:#ffffff;
 }
 
+.fun {
+    text-decoration:none;
+    color:#000000;
+}
+
 .fixed-position {
-    position: fixed;
+    position: sticky;
     box-sizing:border-box;
+    background-color:#ffffff;
     top: 0;
     left: 0;
-    z-index: 9998;
     width: 100%;
-    height: 7.5%;
+    height: 54px;
     display: flex;
     box-shadow: rgba(73, 73, 73) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
+    z-index: 9999;
 }
 
 .bgcolor {
-    position: fixed;
     box-sizing:border-box;
-    top: 10px;
-    left: 2%;
-    z-index: 9999;
-    width: 20%;
-    height: 56px;
+    margin-left: 27px;
+    margin-top: 9px;
     display: flex;
-    flex-direction:row;
+}
+
+.bgcolor:hover {
+    cursor:pointer;
 }
 
 .button {
@@ -43,6 +53,7 @@ a{
     border-radius: 50%;
     border: 2px solid #202020;
     position: relative;
+    transition: margin-top 0.2s ease-in-out;
 }
 
 #white {
@@ -74,34 +85,47 @@ a{
 }
 
 .button:hover {
-    animation: hop 0.75s ease-in-out infinite;
-}
-
-@keyframes hop {
-    0% {top: 0;}
-    40% {top: -4px;}
-    50% {top: -5px;}
-    60% {top: -4px;}
-    100% {top: 0;}
+    margin-top:-5px;
 }
 
 .title {
     font-family: 'Varela Round', sans-serif;
     color:#000000be;
-    position: absolute;
-    top: -20px;
-    left:41.5%;
+    margin-top:8px;
+    text-align:center;
     font-size: 30px;
     font-weight:bold;
+    flex-grow:1;
 }
 
 .windows {
+    text-align:right;
     font-family: sans-serif;
     color:#000000be;
-    position: fixed;
-    top: -25px;
-    right:1%;
+    margin-right:27px;
     font-size: 30px;
+    width:95px;
+}
+
+.windows:hover {
+    cursor:pointer;
+}
+
+#minimize {
+    padding-top:24px;
+    font-weight:bold;
+}
+
+#minimize:hover {
+    color:#00000059;
+}
+
+#window:hover {
+    color:#00000059;
+}
+
+#close:hover {
+    color:red;
 }
 
 .maxim-container {
@@ -109,14 +133,14 @@ a{
     position: fixed;
     box-sizing:border-box;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    left: 25%;
+    width: 75%;
     height: 23%;
     display: flex;
     flex-direction:row;
     background-color:#000000;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .cb-container {
@@ -124,14 +148,15 @@ a{
     position: fixed;
     box-sizing:border-box;
     bottom: 23%;
-    left: 12.5%;
+    right: 25%;
     width: 75%;
     height: 23%;
     display: flex;
     flex-direction:row;
     background-color:#ff7f50;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
+    z-index:0;
 }
 
 .logo-container {
@@ -140,27 +165,28 @@ a{
     box-sizing:border-box;
     bottom: 46%;
     left: 25%;
-    width: 50%;
+    width: 75%;
     height: 23%;
     display: flex;
     flex-direction:row;
     background-color:#ba55d3;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .about-container {
+    overflow:hidden;
     position: fixed;
     box-sizing:border-box;
     bottom: 69%;
-    left: 37.5%;
-    width: 25%;
+    right: 25%;
+    width: 75%;
     height: 23%;
     display: flex;
     flex-direction:row;
     background-color:#ffd700;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .about-me {
