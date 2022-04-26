@@ -288,6 +288,7 @@ body {
     right:19%;
     bottom:19%;
     color: black;
+    transition:color 0.25s;
 }
 
 .home:hover {
